@@ -1,0 +1,43 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+   
+      background-image: url("https://cojo.ru/wp-content/uploads/2022/12/futbolnoe-pole-2.webp");
+ background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      display: flex;
+      flex-direction: column;
+   gap: 30px;
+      padding: 10px 10px;
+
+    }
+
+    h1 {
+      margin-top: 30px; 
+      margin: 0 auto;
+      text-align: center;
+      font-size: 48px;
+      color: white;
+      background: rgba(0,0,0,0.5);
+      padding: 15px 40px;
+      border-radius: 12px;
+    }
+.otasi{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+body img{
+  width: 300px;
+  height: 300px;
+}
+    
